@@ -15,7 +15,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='assets/apple-icon-180x180.png') }}">
   <link href="{{ url_for('static', filename='assets/favicon.ico')}}" rel="icon">
   
-  <title>Title page</title>  
+  <title>{{ params['blog_name']}}</title>  
 
 <link href="{{ url_for('static', filename='main.3da94fde.css')}}" rel="stylesheet"></head>
 
@@ -46,17 +46,14 @@
            
           <p><small>© Untitled | Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></small></p>
           <p class="footer-share-icons">
-              <a href="https://www.twitter.com" class="fa-icon" title="">
+              <a href="{{params['fb_url']}}" class="fa-icon" title="">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="{{params['tw_url']}}" class="fa-icon" title="">
                   <i class="fa fa-twitter" aria-hidden="true"></i>
               </a>
-              <a href="https://www.linkedin.com" class="fa-icon" title="">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.behance.com" class="fa-icon" title="">
-                  <i class="fa fa-behance" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.vimeo.com" class="fa-icon" title="">
-                  <i class="fa fa-vimeo" aria-hidden="true"></i>
+              <a href="{{params['gh_url']}}" class="fa-icon" title="">
+                  <i class="fa fa-github" aria-hidden="true"></i>
               </a>
           </p>
                        

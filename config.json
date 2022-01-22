@@ -1,0 +1,14 @@
+{
+    "params":
+    {
+      "local_server":"True",
+      "fb_url":"https://facebook.com/kirpalsingh17",
+      "tw_url":"https://twitter.com/kirpalsingh_17",
+      "gh_url": "https://github.com/kirpalsingh17",
+      "blog_name": "Html Integration in Flask",
+      "tag_line": "Heaven for programmers",
+      "gmail-user":"mailme.kirpal@gmail.com",
+      "gmail-password":"gmailpassword",
+      "about_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }  
+  }
